@@ -4,35 +4,33 @@ import javax.persistence.*;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 @Entity
 @Table(name = "category")
 public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    @Column(name = "id", nullable = false)
+    @Column(name = "id")
     private long id;
     @Basic
-    @Column(name = "created_by", nullable = true, length = 255)
+    @Column(name = "created_by")
     private String createdBy;
     @Basic
-    @Column(name = "created_date", nullable = true)
+    @Column(name = "created_date")
     private Timestamp createdDate;
     @Basic
-    @Column(name = "modified_by", nullable = true, length = 255)
+    @Column(name = "modified_by")
     private String modifiedBy;
     @Basic
-    @Column(name = "modified_date", nullable = true)
+    @Column(name = "modified_date")
     private Timestamp modifiedDate;
     @Basic
-    @Column(name = "code", nullable = true, length = 255)
+    @Column(name = "code")
     private String code;
     @Basic
-    @Column(name = "name", nullable = true, length = 255)
+    @Column(name = "name")
     private String name;
-
-    @OneToMany(mappedBy = "category")
-    private List<New> news = new ArrayList<>();
 
     public List<New> getNews() {
         return news;
@@ -41,6 +39,9 @@ public class Category {
     public void setNews(List<New> news) {
         this.news = news;
     }
+
+    @OneToMany(mappedBy = "category")
+    private List<New> news = new ArrayList<>();
 
     public long getId() {
         return id;
@@ -96,5 +97,18 @@ public class Category {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Category category = (Category) o;
+        return id == category.id && Objects.equals(createdBy, category.createdBy) && Objects.equals(createdDate, category.createdDate) && Objects.equals(modifiedBy, category.modifiedBy) && Objects.equals(modifiedDate, category.modifiedDate) && Objects.equals(code, category.code) && Objects.equals(name, category.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, createdBy, createdDate, modifiedBy, modifiedDate, code, name);
     }
 }

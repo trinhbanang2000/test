@@ -1,6 +1,7 @@
 package com.laptrinhjava;
 
 import com.laptrinhjava.dao.NewEntityDao;
+
 import com.laptrinhjava.entity.New;
 import com.laptrinhjava.utils.HibernateUtil;
 import javafx.application.Application;

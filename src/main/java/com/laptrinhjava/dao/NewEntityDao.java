@@ -1,6 +1,5 @@
 package com.laptrinhjava.dao;
 
-import com.laptrinhjava.entity.Category;
 import com.laptrinhjava.entity.New;
 
 import javax.persistence.EntityManagerFactory;

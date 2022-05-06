@@ -6,8 +6,6 @@
              version="2.1">
     <persistence-unit name="anthinhphatjsc" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <mapping-file>Category.xml</mapping-file>
-        <mapping-file>New.xml</mapping-file>
         <class>com.laptrinhjava.entity.Category</class>
         <class>com.laptrinhjava.entity.New</class>
         <properties>

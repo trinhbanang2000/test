@@ -78,3 +78,35 @@
 2022-05-06 15:34:27,925 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
 2022-05-06 15:34:27,931 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
 2022-05-06 15:34:28,471 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 15:55:24,889 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 15:55:25,012 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 15:55:25,014 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 15:55:25,210 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 15:55:25,636 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 15:55:25,722 INFO o.h.o.c.pooling [main] HHH10001005: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mariadb://localhost:3306/springboot]
+2022-05-06 15:55:25,723 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 15:55:25,723 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 15:55:25,727 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 15:55:25,794 WARN o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata : null
+2022-05-06 15:55:25,809 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-05-06 15:55:25,828 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2022-05-06 15:55:25,829 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 1251, SQLState: 08004
+2022-05-06 15:55:25,830 ERROR o.h.e.j.s.SqlExceptionHelper [main] Client restrict authentication plugin to a limited set of authentication plugin and doesn't permit requested plugin ('caching_sha2_password'). Current list is `restrictedAuth=mysql_native_password,client_ed25519,auth_gssapi_client`
+2022-05-06 16:02:59,106 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 16:02:59,212 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 16:02:59,213 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 16:02:59,418 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 16:02:59,877 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 16:02:59,969 INFO o.h.o.c.pooling [main] HHH10001005: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mariadb://localhost:3306/springboot]
+2022-05-06 16:02:59,969 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 16:02:59,970 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 16:02:59,974 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 16:03:00,051 WARN o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata : null
+2022-05-06 16:03:00,065 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-05-06 16:03:00,086 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2022-05-06 16:03:00,088 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 1251, SQLState: 08004
+2022-05-06 16:03:00,088 ERROR o.h.e.j.s.SqlExceptionHelper [main] Client restrict authentication plugin to a limited set of authentication plugin and doesn't permit requested plugin ('caching_sha2_password'). Current list is `restrictedAuth=mysql_native_password,client_ed25519,auth_gssapi_client`
