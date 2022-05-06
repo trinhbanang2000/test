@@ -110,3 +110,163 @@
 2022-05-06 16:03:00,086 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
 2022-05-06 16:03:00,088 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 1251, SQLState: 08004
 2022-05-06 16:03:00,088 ERROR o.h.e.j.s.SqlExceptionHelper [main] Client restrict authentication plugin to a limited set of authentication plugin and doesn't permit requested plugin ('caching_sha2_password'). Current list is `restrictedAuth=mysql_native_password,client_ed25519,auth_gssapi_client`
+2022-05-06 16:23:24,626 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 16:23:24,740 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 16:23:24,742 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 16:23:24,955 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 16:23:25,380 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 16:23:25,470 INFO o.h.o.c.pooling [main] HHH10001005: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mariadb://localhost:3306/springboot]
+2022-05-06 16:23:25,470 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 16:23:25,471 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 16:23:25,473 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 16:23:25,540 WARN o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata : null
+2022-05-06 16:23:25,553 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-05-06 16:23:25,572 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2022-05-06 16:23:25,573 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 1251, SQLState: 08004
+2022-05-06 16:23:25,574 ERROR o.h.e.j.s.SqlExceptionHelper [main] Client restrict authentication plugin to a limited set of authentication plugin and doesn't permit requested plugin ('caching_sha2_password'). Current list is `restrictedAuth=mysql_native_password,client_ed25519,auth_gssapi_client`
+2022-05-06 16:39:54,469 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 16:39:54,578 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 16:39:54,580 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 16:39:54,779 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 16:39:55,180 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 16:39:55,260 INFO o.h.o.c.pooling [main] HHH10001005: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mariadb://localhost:3306/springboot]
+2022-05-06 16:39:55,260 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 16:39:55,260 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 16:39:55,263 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 16:39:55,352 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-05-06 16:41:42,864 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 16:41:43,032 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 16:41:43,033 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 16:41:43,262 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 16:41:43,677 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 16:41:43,753 INFO o.h.o.c.pooling [main] HHH10001005: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mariadb://localhost:3306/springboot]
+2022-05-06 16:41:43,753 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 16:41:43,754 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 16:41:43,758 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 16:41:43,835 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-05-06 16:41:44,638 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2022-05-06 16:41:44,775 INFO j.a.Application [main] com.laptrinhjava.entity.New@622371c3
+2022-05-06 16:41:44,775 INFO j.a.Application [main] com.laptrinhjava.entity.New@27d8ac52
+2022-05-06 16:41:44,775 INFO j.a.Application [main] com.laptrinhjava.entity.New@61e4161
+2022-05-06 16:41:44,775 INFO j.a.Application [main] com.laptrinhjava.entity.New@c316e920
+2022-05-06 16:41:44,775 INFO j.a.Application [main] com.laptrinhjava.entity.New@7eb68ed0
+2022-05-06 16:41:44,775 INFO j.a.Application [main] com.laptrinhjava.entity.New@3fc5e91e
+2022-05-06 16:41:44,775 INFO j.a.Application [main] com.laptrinhjava.entity.New@ee82cdcc
+2022-05-06 16:42:15,423 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 16:42:15,543 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 16:42:15,544 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 16:42:15,739 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 16:42:16,133 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 16:42:16,211 INFO o.h.o.c.pooling [main] HHH10001005: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mariadb://localhost:3306/springboot]
+2022-05-06 16:42:16,211 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 16:42:16,212 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 16:42:16,215 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 16:42:16,293 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-05-06 16:42:17,021 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2022-05-06 16:42:17,154 INFO j.a.Application [main] null
+2022-05-06 16:42:17,154 INFO j.a.Application [main] null
+2022-05-06 16:42:17,154 INFO j.a.Application [main] null
+2022-05-06 16:42:17,154 INFO j.a.Application [main] null
+2022-05-06 16:42:17,154 INFO j.a.Application [main] null
+2022-05-06 16:42:17,154 INFO j.a.Application [main] null
+2022-05-06 16:42:17,155 INFO j.a.Application [main] null
+2022-05-06 16:43:09,857 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 16:43:09,981 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 16:43:09,982 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 16:43:10,192 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 16:43:10,603 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 16:43:10,675 INFO o.h.o.c.pooling [main] HHH10001005: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mariadb://localhost:3306/springboot]
+2022-05-06 16:43:10,676 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 16:43:10,676 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 16:43:10,679 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 16:43:10,755 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-05-06 16:43:11,572 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2022-05-06 16:43:11,709 INFO j.a.Application [main] com.laptrinhjava.entity.New@622371c3
+2022-05-06 16:43:11,709 INFO j.a.Application [main] com.laptrinhjava.entity.New@27d8ac52
+2022-05-06 16:43:11,709 INFO j.a.Application [main] com.laptrinhjava.entity.New@61e4161
+2022-05-06 16:43:11,709 INFO j.a.Application [main] com.laptrinhjava.entity.New@c316e920
+2022-05-06 16:43:11,709 INFO j.a.Application [main] com.laptrinhjava.entity.New@7eb68ed0
+2022-05-06 16:43:11,709 INFO j.a.Application [main] com.laptrinhjava.entity.New@3fc5e91e
+2022-05-06 16:43:11,710 INFO j.a.Application [main] com.laptrinhjava.entity.New@ee82cdcc
+2022-05-06 16:43:39,002 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 16:43:39,108 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 16:43:39,109 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 16:43:39,347 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 16:43:39,745 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 16:43:39,822 INFO o.h.o.c.pooling [main] HHH10001005: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mariadb://localhost:3306/springboot]
+2022-05-06 16:43:39,823 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 16:43:39,823 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 16:43:39,826 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 16:43:39,899 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-05-06 16:43:40,652 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2022-05-06 16:43:40,777 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:43:40,777 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:43:40,777 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:43:40,777 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:43:40,778 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:43:40,778 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:43:40,778 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:47:58,455 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 16:47:58,575 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 16:47:58,576 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 16:47:58,801 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 16:47:59,228 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 16:47:59,325 INFO o.h.o.c.pooling [main] HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mariadb://localhost:3306/springboot]
+2022-05-06 16:47:59,325 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 16:47:59,325 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 16:47:59,329 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 16:48:38,434 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 16:48:38,552 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 16:48:38,553 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 16:48:38,771 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 16:48:39,180 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 16:48:39,264 INFO o.h.o.c.pooling [main] HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/springboot]
+2022-05-06 16:48:39,265 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 16:48:39,265 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 16:48:39,269 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 16:48:39,970 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-06 16:48:40,795 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2022-05-06 16:48:40,919 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:48:40,920 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:48:40,920 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:48:40,920 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:48:40,920 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:48:40,920 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:48:40,920 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:58:11,315 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 16:58:11,427 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 16:58:11,429 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 16:58:11,628 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 16:58:12,016 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 16:58:12,092 INFO o.h.o.c.pooling [main] HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/springboot]
+2022-05-06 16:58:12,092 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 16:58:12,093 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 16:58:12,095 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 16:58:12,636 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-06 16:58:13,460 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2022-05-06 16:58:13,606 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:58:13,607 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:58:13,607 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:58:13,607 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:58:13,607 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:58:13,607 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:58:13,607 INFO j.a.Application [main] ảnh 1
+2022-05-06 16:58:13,608 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/springboot]

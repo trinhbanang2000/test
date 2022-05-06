@@ -17,8 +17,9 @@ public class main {
         NewEntityDao dao = new NewEntityDao(hibernateUtil.getDbConnector());
         List<New> news = dao.findAll();
         for (New x : news) {
-            logger.info(x);
+            logger.info(x.getThumbail());
         }
+        hibernateUtil.close();
 
 
 

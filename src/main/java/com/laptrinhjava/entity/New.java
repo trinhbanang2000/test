@@ -48,7 +48,7 @@ public class New {
     }
 
     @ManyToOne
-    @JoinColumn(name = "category_id")
+    @JoinColumn(name = "category_id", insertable = false, updatable = false)
     private Category category;
 
     public long getId() {
@@ -129,6 +129,23 @@ public class New {
 
     public void setCategoryId(Long categoryId) {
         this.categoryId = categoryId;
+    }
+
+    @Override
+    public String toString() {
+        return "New{" +
+                "id=" + id +
+                ", createdBy='" + createdBy + '\'' +
+                ", createdDate=" + createdDate +
+                ", modifiedBy='" + modifiedBy + '\'' +
+                ", modifiedDate=" + modifiedDate +
+                ", content='" + content + '\'' +
+                ", shortdescription='" + shortdescription + '\'' +
+                ", thumbail='" + thumbail + '\'' +
+                ", title='" + title + '\'' +
+                ", categoryId=" + categoryId +
+                ", category=" + category +
+                '}';
     }
 
     @Override
