@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.laptrinhjava.entity.New">
+        <table name="new" schema="springboot"/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="20"/>
+            </id>
+            <basic name="createdBy">
+                <column name="created_by" nullable="false"/>
+            </basic>
+            <basic name="createdDate">
+                <column name="created_date" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="modifiedBy">
+                <column name="modified_by" nullable="false"/>
+            </basic>
+            <basic name="modifiedDate">
+                <column name="modified_date" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="content">
+                <column name="content" nullable="false"/>
+            </basic>
+            <basic name="shortdescription">
+                <column name="shortdescription" nullable="false"/>
+            </basic>
+            <basic name="thumbail">
+                <column name="thumbail" nullable="false"/>
+            </basic>
+            <basic name="title">
+                <column name="title" nullable="false"/>
+            </basic>
+            <basic name="categoryId">
+                <column name="category_id" nullable="false" precision="20"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

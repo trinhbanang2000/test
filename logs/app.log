@@ -1,0 +1,80 @@
+2022-05-06 15:18:49,703 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 15:18:49,870 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 15:18:49,872 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 15:18:50,060 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 15:20:22,013 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 15:20:22,377 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 15:20:22,383 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 15:20:23,007 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 15:22:01,073 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 15:22:01,186 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 15:22:01,187 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 15:22:01,422 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 15:23:36,195 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 15:23:36,325 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 15:23:36,326 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 15:23:36,558 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 15:28:34,986 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 15:28:35,095 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 15:28:35,097 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 15:28:35,300 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 15:30:51,386 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 15:30:51,496 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 15:30:51,498 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 15:30:51,707 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 15:31:26,752 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 15:31:26,887 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 15:31:26,890 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 15:31:27,102 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 15:31:27,482 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 15:31:27,559 INFO o.h.o.c.pooling [main] HHH10001005: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mariadb://103.82.25.21:3306/springboot]
+2022-05-06 15:31:27,559 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 15:31:27,559 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 15:31:27,562 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 15:31:27,642 WARN o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata : null
+2022-05-06 15:31:27,654 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-05-06 15:31:27,670 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2022-05-06 15:31:27,671 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 1045, SQLState: 28000
+2022-05-06 15:31:27,672 ERROR o.h.e.j.s.SqlExceptionHelper [main] (conn=15349) Access denied for user 'root'@'58.187.180.221' (using password: YES)
+2022-05-06 15:32:34,388 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 15:32:34,503 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 15:32:34,504 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 15:32:34,717 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 15:32:35,150 WARN o.h.o.c.pooling [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-06 15:32:35,245 INFO o.h.o.c.pooling [main] HHH10001005: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mariadb://localhost:3306/springboot]
+2022-05-06 15:32:35,246 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {user=root, password=****}
+2022-05-06 15:32:35,248 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2022-05-06 15:32:35,252 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-06 15:32:35,318 WARN o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata : null
+2022-05-06 15:32:35,331 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-05-06 15:32:35,349 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2022-05-06 15:32:35,351 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 1251, SQLState: 08004
+2022-05-06 15:32:35,351 ERROR o.h.e.j.s.SqlExceptionHelper [main] Client restrict authentication plugin to a limited set of authentication plugin and doesn't permit requested plugin ('caching_sha2_password'). Current list is `restrictedAuth=mysql_native_password,client_ed25519,auth_gssapi_client`
+2022-05-06 15:33:07,957 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 15:33:08,063 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 15:33:08,064 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 15:33:08,309 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-05-06 15:34:27,582 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: anthinhphatjsc
+	...]
+2022-05-06 15:34:27,925 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-05-06 15:34:27,931 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-05-06 15:34:28,471 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
